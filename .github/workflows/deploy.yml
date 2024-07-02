@@ -30,7 +30,7 @@ jobs:
         tags: tanishq1604/payment
 
     - name: Verify Pushed Image
-      run: docker pull 100xdevs/web-app:latest
+      run: docker pull tanishq1604/payment:latest
 
     - name: Deploy to EC2
       uses: appleboy/ssh-action@master
